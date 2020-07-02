@@ -27,7 +27,7 @@ function ProductScreen(props) {
         <div >
             <Link to="/">Back to result</Link>
             <div className="productScreen">
-            <Product id={item} name={item.name} imgSrc={item.imgSrc} brand={item.brand} 
+            <Product id={item} name={item.name} imgSrc={item.image} brand={item.brand} 
                     price={item.price} rating={item.rating}/>
             <div className="numberProduct">
                 <ul >
@@ -35,7 +35,7 @@ function ProductScreen(props) {
                 <li>{item.countInStock > 0 ? "State: In Stock" : "State: Out of Stock"}</li>
                 <li><select value = {quantity} onChange={(e) => {setQuantity(e.target.value)}}>
                    {[...Array(item.countInStock).keys()].map(x => {
-                        return <option value={x+1}>{x+1}</option>
+                        return <option key={x+1} value={x+1}>{x+1}</option>
                    }
 
                    )}

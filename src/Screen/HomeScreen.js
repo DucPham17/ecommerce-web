@@ -9,6 +9,7 @@ function HomeScreen(props) {
     const productList = useSelector(state => state.productList);
     const { products, loading, error } = productList;
     const dispatch = useDispatch();
+    console.log(products)
     useEffect(() => {
         dispatch(listProducts())
 
@@ -25,8 +26,8 @@ function HomeScreen(props) {
                     <ul className="products" >
                         {
                             products.map(product => {
-                                return <li key={product.id}>
-                                    <Product id={product.id} name={product.name} imgSrc={product.imgSrc} brand={product.brand}
+                                return <li key={product._id}>
+                                    <Product id={product._id} name={product.name} imgSrc={product.image} brand={product.brand}
                                         price={product.price} rating={product.rating} />
                                 </li>;
                             }
