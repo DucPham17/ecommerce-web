@@ -7,7 +7,7 @@ function PaymentScreen(props) {
 
 
     const [paymentMethod, setPaymentMethod] = useState("");
-    const userRegister = useSelector(state => state.register)
+    const userRegister = useSelector(state => state.signin)
     console.log(userRegister)
     const { loading, userInfo, error } = userRegister;
 

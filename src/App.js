@@ -13,6 +13,7 @@ import ProductsScreen from './Screen/ProductsScreen';
 import ShippingScreen from './Screen/ShippingScreen';
 import PaymentScreen from './Screen/PaymentScreen';
 import PlaceOrderScreen from './Screen/PlaceOrderScreen';
+import ProfileScreen from './Screen/ProfileScreen';
 
 function App(props) {
 
@@ -85,6 +86,7 @@ function App(props) {
             <Route path="/shipping" component={ShippingScreen}/>
             <Route path="/payment" component={PaymentScreen}/>
             <Route path="/placeorder" component={PlaceOrderScreen} />
+            <Route path="/profile" component={ProfileScreen} />
           </div>
         </main>
         <footer className="footer">

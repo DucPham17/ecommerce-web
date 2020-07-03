@@ -9,7 +9,7 @@ function ShippingScreen(props) {
     const [city, setCity] = useState("");
     const [country, setCountry] = useState("");
     const [postalCode, setPostalCode] = useState("");
-    const userRegister = useSelector(state => state.register)
+    const userRegister = useSelector(state => state.signin)
     console.log(userRegister)
     const { loading, userInfo, error } = userRegister;
 

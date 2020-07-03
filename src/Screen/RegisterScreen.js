@@ -8,7 +8,7 @@ function RegisterScreen(props) {
     const [password, setPass] = useState("")
     const [userName, setUsername] = useState("")
     const [confirmPassword, setConfirmPassword] = useState("")
-    const userRegister = useSelector(state => state.register)
+    const userRegister = useSelector(state => state.signin)
     console.log(userRegister)
     const { loading, userInfo, error } = userRegister;
     
