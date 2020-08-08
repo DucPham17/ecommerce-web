@@ -10,12 +10,12 @@ I build this app so that myself or others people can become a seller and have th
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
  
 ## Screenshots
-![FirstPage](https://ibb.co/z69S6PD)
-![SecondPage](https://ibb.co/85b5nWJ)
-![ThirdPage](https://ibb.co/Qnh7gQR)
-![FourthPage](https://ibb.co/VtMLFs5)
-![LastPage](https://ibb.co/yVvM0kG)
-![Admin](https://ibb.co/QXBcBj0)
+![FirstPage](https://ibb.co/NNz5dhz)
+![SecondPage](https://ibb.co/8jG3RJg)
+![ThirdPage](https://ibb.co/sCmL0nZ)
+![FourthPage](https://ibb.co/NKdJBWP)
+![LastPage](https://ibb.co/qFK1502)
+![Admin](https://ibb.co/tbxj8jL)
 
 ## Tech/framework used
 [React](https://reactjs.org/) for front-end(include react hook and redux)
