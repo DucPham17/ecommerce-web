@@ -53,3 +53,7 @@ password: 1234
 
 go to localhost:3000/products/
 You can create, update, and delete product at here.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
