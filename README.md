@@ -10,12 +10,12 @@ I build this app so that myself or others people can become a seller and have th
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
  
 ## Screenshots
-![FirstPage](https://www.flickr.com/photos/189634229@N02/50203453133/in/dateposted-public/)
-![SecondPage](https://ibb.co/8jG3RJg)
-![ThirdPage](https://ibb.co/sCmL0nZ)
-![FourthPage](https://ibb.co/NKdJBWP)
-![LastPage](https://ibb.co/qFK1502)
-![Admin](https://ibb.co/tbxj8jL)
+![1](https://user-images.githubusercontent.com/66095400/89721294-8a365500-d9a1-11ea-9b88-5a16f3f0c713.PNG)
+![2](https://user-images.githubusercontent.com/66095400/89721296-8d314580-d9a1-11ea-98ae-a88970fc4d36.PNG)
+![3](https://user-images.githubusercontent.com/66095400/89721297-8e627280-d9a1-11ea-94ed-e27d5aa72ba5.PNG)
+![4](https://user-images.githubusercontent.com/66095400/89721298-8efb0900-d9a1-11ea-8588-1684ae99f134.PNG)
+![5](https://user-images.githubusercontent.com/66095400/89721299-902c3600-d9a1-11ea-8c95-e9103b681c05.PNG)
+![Admin](https://user-images.githubusercontent.com/66095400/89721300-90c4cc80-d9a1-11ea-9254-80a53bd98b1c.PNG)
 
 ## Tech/framework used
 [React](https://reactjs.org/) for front-end(include react hook and redux)
